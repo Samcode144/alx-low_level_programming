@@ -3,7 +3,7 @@
  * main -main block
  * Description: print the alpabet in lowercase
  * and the in uppercase, follow by a new line
- * Return: Alway 0
+ * Return: 0
  */
 int main(void)
 {
@@ -15,10 +15,12 @@ int main(void)
 		c++;
 	}
 	c = 'A';
+
 	while (c <= 'Z')
 	{
 		putchar(c);
 	}
+
 	putchar('\n');
 	return (0);
 }

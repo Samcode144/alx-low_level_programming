@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - main block
- * Description: print the lowercase alphabet in reverse, followed by new line
- * Return: 0
+ * Description: print all single digit number of base 10
+ * starting from 0, followed by new line
+ * Return 0
  */
 int main(void)
 {
@@ -16,4 +19,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
-}	
+}

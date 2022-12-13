@@ -40,7 +40,7 @@ int main(void)
 
 			c++;
 		}
-		c++;
+		d++;
 	}
 	putchar('\n');
 	return (0);

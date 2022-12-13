@@ -20,12 +20,12 @@ int main(void)
 {
 	int c;
 	int d;
-	int c = 0;
+	int e = 0;
 
-	while (d < 10)
+	while (e < 10)
 	{
 		d = 0;
-		while (d < 10)
+		while (c < 10)
 		{
 			c = 0;
 			while (c < 10)
@@ -42,7 +42,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				
+
 				c++;
 			}
 			d++;
@@ -53,4 +53,3 @@ int main(void)
 	return (0);
 }
 
-							

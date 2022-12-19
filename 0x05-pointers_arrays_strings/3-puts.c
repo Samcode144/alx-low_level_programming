@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void _outs(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 

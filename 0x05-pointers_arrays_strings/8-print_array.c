@@ -3,7 +3,7 @@
 
 /**
  * print_array - prints n elements of an array of integer.
- * @a: int array
+ * @a: int array.
  * @n: input n elements
  * Return: no return.
  */
@@ -14,7 +14,6 @@ void print_array(int *a, int n)
 	for (; i < n; i++)
 	{
 		printf("%d", *(a + i));
-		if (i != (n - 1));
 		if (i != (n - 1))
 			printf(", ");
 	}
